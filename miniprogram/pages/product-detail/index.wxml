@@ -1,0 +1,16 @@
+<view class="page detail-page">
+  <block wx:if="{{product}}">
+    <image class="cover" src="{{product.coverUrl}}" mode="aspectFill" />
+
+    <view class="card">
+      <view class="user-line">当前登录用户：{{user.nickname || '微信用户'}}</view>
+      <view class="title">{{product.title}}</view>
+      <view class="price">¥ {{product.price}}</view>
+      <view class="desc">{{product.description}}</view>
+    </view>
+
+    <button class="logout-btn" plain bindtap="handleLogout">退出登录</button>
+  </block>
+
+  <view wx:elif="{{loading}}" class="loading">正在加载商品信息...</view>
+</view>

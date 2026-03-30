@@ -1,0 +1,11 @@
+page {
+  background: #f7f8fa;
+  color: #1f2937;
+  min-height: 100%;
+  font-size: 28rpx;
+}
+
+.page {
+  min-height: 100vh;
+  box-sizing: border-box;
+}

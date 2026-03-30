@@ -1,0 +1,40 @@
+.login-page {
+  padding: 96rpx 40rpx;
+  background:
+    radial-gradient(circle at top left, #d9f7be 0, transparent 36%),
+    linear-gradient(180deg, #f7f8fa 0%, #eef6ff 100%);
+}
+
+.hero {
+  margin-top: 120rpx;
+  padding: 48rpx 40rpx;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 32rpx;
+  box-shadow: 0 20rpx 60rpx rgba(15, 23, 42, 0.08);
+}
+
+.eyebrow {
+  font-size: 24rpx;
+  color: #16a34a;
+  letter-spacing: 4rpx;
+  text-transform: uppercase;
+}
+
+.title {
+  margin-top: 24rpx;
+  font-size: 48rpx;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.desc {
+  margin-top: 20rpx;
+  color: #64748b;
+  line-height: 1.7;
+}
+
+.login-btn {
+  margin-top: 72rpx;
+  border-radius: 999rpx;
+  background: linear-gradient(90deg, #16a34a 0%, #22c55e 100%);
+}
